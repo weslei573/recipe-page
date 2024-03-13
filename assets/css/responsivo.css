@@ -1,0 +1,39 @@
+@media screen and (max-width:710px) {
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        font-size: 1em;
+    }
+
+    .container .cabecalho {
+        display: inline-block;
+        width: 100%;
+        height: 180px;
+    }
+
+    .cabecalho>img {
+        border-radius: 0px;
+    }
+
+    .container .secao01,
+    .secao02 {
+        padding: 0px 24px 0px 24px;
+    }
+
+    .secao01>h1 {
+        font-size: 2.3em;
+    }
+
+    .lista-nutri .desc{
+        width: 17vh;
+    }
+
+    footer{
+        color: var(--Neutral05);
+        text-align: center;
+        padding: 20px;
+        font-size: 0.8em;
+    }
+}
