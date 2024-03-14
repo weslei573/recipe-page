@@ -84,7 +84,9 @@ p {
     padding: 0px 25px 0px 25px;
 }
 
-.sub-secao>h3 {
+.sub-secao .sub-titutlo {
+    font-family: "Outfit";
+    font-weight: 700;
     color: var(--Primary02);
     font-size: 1.2em;
     padding-bottom: 10px;
@@ -128,10 +130,6 @@ h2 {
     padding-bottom: 15px;
 }
 
-hr{
-    border: 0px;
-    border-top: 2px solid var(--Neutral04);
-}
 
 .secao02 .sub01,
 .sub02 {
@@ -188,7 +186,7 @@ hr{
     font-family: "Outfit";
     font-weight: 400;
     color: var(--Neutral05);
-    width: 40vh;
+    width: 280px;
     margin-left: 1em;
 }
 
@@ -198,14 +196,12 @@ hr{
     color: var(--Primary01);
 }
 
-footer{
-    color: var(--Neutral05);
-    text-align: center;
-    padding: 10px;
+.linha{
+    border-top: 2px solid var(--Neutral04);
 }
 
-footer a{
-    text-decoration: none;
-    color: var(--Neutral05);
-    font-weight: 700;
+hr{
+    width: 100%;
+    border: 0px;
+    border-top: 2px solid var(--Neutral04);
 }
