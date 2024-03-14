@@ -36,7 +36,7 @@ body {
     flex-direction: column;
     width: 710px;
     margin: 100px 0px 100px 0px;
-    padding: 50px;
+    padding: 40px;
     border-radius: 20px;
     gap: 35px;
     box-shadow: 2px 2px 10px 0px var(--Neutral04);
